@@ -1,0 +1,30 @@
+project:
+  name: 
+  version: 0.0.1
+  description: 
+  authors:
+    - name: William J.B. Mattingly
+  license: MIT
+
+directories:
+  assets: "assets"
+  data:
+    raw: "data/raw"
+    processed: "data/processed"
+    test: "data/processed/test"
+    train: "data/processed/train"
+    val: "data/processed/val"
+  features: "features"
+  notebooks: "notebooks"
+  src:
+    data: "src/data"
+    features: "src/features"
+    models: "src/models"
+    utils: "src/utils"
+  visualization: "visualization"
+  tests: "tests"
+
+dependencies:
+  python: ">=3.10"
+  packages:
+    - pandas
